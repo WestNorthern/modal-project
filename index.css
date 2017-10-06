@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya');
+@import url('https://fonts.googleapis.com/css?family=Economica');
+
 html {
 	border:20px solid white;
+	font-family: 'Economica';
+}
+
+h1 {
+	font-family: 'Alegreya';
 }
 
 
@@ -98,11 +106,13 @@ nav {
 }
 
 nav li {
-	width: 100%;
+	width: 97%;
 	text-align: center;
 	border: 2px solid ghostwhite;
 	margin-top: 10%;
 	list-style: none;
+	border-bottom-right-radius: 20%;
+	border-top-right-radius: 20%;
 
 }
 
@@ -114,7 +124,7 @@ nav li {
 .header {
 	/*margin-left: 10%;*/
 	width: 100%;
-	height: 200px;
+	height: 220px;
 	border: 5px solid darkblue;
 	text-align: center;
 	color: darkblue;
@@ -143,4 +153,9 @@ img {
 	display: inline;
 	float: left;
 	border: 10px solid ghostwhite;
+}
+
+a {
+	color: white;
+	text-decoration: none;
 }
