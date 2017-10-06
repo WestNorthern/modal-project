@@ -74,3 +74,28 @@ body {
 	margin-top: 10%;
 
 }
+
+nav {
+	position: fixed;
+	width: 10%;
+	background: darkorchid;
+	color: white;
+	font-size: 2em;
+	left: 0;
+	top: 0;
+	height: 100%;
+}
+
+nav li {
+	width: 100%;
+	text-align: center;
+	border: 2px solid ghostwhite;
+	margin-top: 10%;
+	list-style: none;
+
+}
+
+#logo {
+	font-size: 1.3em;
+	margin-bottom: 20%;
+}
