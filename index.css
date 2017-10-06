@@ -14,3 +14,30 @@ body {
 	top: 0;
 	display: none;
 }
+
+.modal-box {
+	margin: 150px auto;
+	width: 500px;
+	height: 500px;
+	/*background: ghostwhite;*/
+	/*border: 3px solid purple;*/
+
+}
+
+.modal-header {
+	text-align: right;
+	font-size: 2em;
+	background: purple;
+	color: ghostwhite;
+	width: 500px;
+	height: 30px;
+	border: 3px solid purple;
+
+}
+
+.modal-body {
+	width: 500px;
+	height: 500px;
+	background: ghostwhite;
+	border: 3px solid purple;
+}
