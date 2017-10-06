@@ -18,5 +18,5 @@ modalClose.addEventListener('click', function() {
 
 setTimeout(function(){
   modal.style.display = 'block';
-}, 5000);
+}, 3000);
 
