@@ -1,10 +1,6 @@
-// let modalButton = document.getElementById('showModal');
 let modal = document.getElementById('theModal');
 let modalClose = document.getElementById('modalClose');
 
-// modalButton.addEventListener('click', function() {
-// 	modal.style.display = 'block';
-// });
 
 document.getElementById('submit').addEventListener('click', function(e){
 	e.preventDefault();
