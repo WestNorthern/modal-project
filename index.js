@@ -6,6 +6,11 @@ let modalClose = document.getElementById('modalClose');
 // 	modal.style.display = 'block';
 // });
 
+document.getElementById('submit').addEventListener('click', function(e){
+	e.preventDefault();
+	document.getElementById('modal-form').innerHTML = "<h1>That doesn't matter anymore.</h1>";
+})
+
 modalClose.addEventListener('click', function() {
 	modal.style.display = 'none';
 });
