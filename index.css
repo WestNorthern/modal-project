@@ -1,6 +1,7 @@
 body {
 	background: ghostwhite;
 	padding: 40px;
+	margin-left: 10%;
 }
 
 
@@ -30,14 +31,14 @@ body {
 .modal-header {
 	text-align: right;
 	font-size: 2em;
-	background: purple;
+	background: darkblue;
 	color: ghostwhite;
 	width: 500px;
 	height: 40px;
-	border: 3px solid purple;
+	border: 3px darkblue;
 	box-sizing: border-box;
 	padding: 1%;
-	border-radius: 5px;
+	border-radius-top: 5px;
 
 
 }
@@ -46,14 +47,14 @@ body {
 	width: 500px;
 	height: 500px;
 	background: ghostwhite;
-	border: 3px solid purple;
+	border: 3px solid darkblue;
 	text-align: center;
-	color: purple;
+	color: darkblue;
 	font-weight: bold;
 	padding: 5%;
 	font-size: 1.5em;
 	box-sizing: border-box;
-	border-radius: 5px;
+	border-radius-bottom: 5px;
 }
 
 [type="text"] {
@@ -62,13 +63,13 @@ body {
 	margin: 5%;
 	height: 30px;
 	border-radius: 2px;
-	border: 2px solid purple;
+	border: 2px solid darkblue;
 }
 
 [type="submit"] {
 	width: 150px;
 	border-radius: 5px;
-	background: purple;
+	background: darkblue;
 	color: white;
 	font-size: 1.1em;
 	margin-top: 10%;
@@ -78,7 +79,7 @@ body {
 nav {
 	position: fixed;
 	width: 10%;
-	background: darkorchid;
+	background: darkblue;
 	color: white;
 	font-size: 2em;
 	left: 0;
@@ -99,3 +100,30 @@ nav li {
 	font-size: 1.3em;
 	margin-bottom: 20%;
 }
+
+.header {
+	/*margin-left: 10%;*/
+	width: 100%;
+	height: 200px;
+	border: 5px solid darkblue;
+	text-align: center;
+	color: darkblue;
+	background: ghostwhite;
+	font-size: 2em;
+}
+
+.content-wrapper {
+	width: 100%;
+	height: auto;
+	border: 5px solid darkblue;
+	text-align: center;
+	color: darkblue;
+	background: ghostwhite;
+	font-size: 2em;
+	margin-top: 5%;
+	padding: 30px;
+	box-sizing: border-box;
+
+}
+
+.
