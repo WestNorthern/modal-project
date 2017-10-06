@@ -14,3 +14,9 @@ modalClose.addEventListener('click', function() {
 setTimeout(function(){
   modal.style.display = 'block';
 }, 5000);
+
+// document.getElementById('body').addEventListener('click', function() {
+// 	if (click.target !== '#theModal'){
+// 	modal.style.display = 'none';
+// }
+// });
